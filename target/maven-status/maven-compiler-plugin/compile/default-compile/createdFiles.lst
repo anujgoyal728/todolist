@@ -1,0 +1,7 @@
+com/todo/project/core/Task.class
+com/todo/project/resources/TaskResources.class
+com/todo/project/todolistApplication.class
+com/todo/project/todolistApplication$1.class
+com/todo/project/health/DatabaseHealthCheck.class
+com/todo/project/todolistConfiguration.class
+com/todo/project/db/TaskDAO.class

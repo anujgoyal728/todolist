@@ -1,0 +1,20 @@
+logging:
+  level: INFO
+  loggers:
+    org.apache.tomcat: DEBUG
+    org.hibernate: DEBUG
+
+server:
+  type: simple
+  applicationContextPath: /api
+  adminContextPath: /admin
+
+database:
+  driverClass: org.mariadb.jdbc.Driver
+  url: jdbc:mariadb://localhost:3306/todo
+  user: root
+  password: root
+  maxSize: 10
+  minSize: 1
+
+
